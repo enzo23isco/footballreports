@@ -1,0 +1,17 @@
+Code Line Explanations:
+
+RADAR CHART
+~~~~~~~~~~~~~~
+angles = np.linspace(0,2 * np.pi, N, endpoint=False)
+
+linspace: This is a function in NumPy that generates an array of evenly spaced values over a specified range.
+
+0: The starting value of the range.
+
+2 * np.pi: The ending value of the range. 2 * np.pi represents a full circle in radians, which is equivalent to 360 degrees. This ensures that the angles cover the entire circle for the radar chart.
+
+N: The number of values (angles) you want in the array. In the context of a radar chart, N typically represents the number of categories or variables you want to plot.
+
+endpoint=False: This argument specifies whether the endpoint (ending value) should be included in the array. In this case, endpoint=False means that the ending value (2 * np.pi) will not be included in the array.
+
+~~~~~~~~~~~~~~~~
